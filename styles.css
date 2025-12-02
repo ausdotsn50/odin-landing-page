@@ -119,3 +119,19 @@ button {
 .section.three {
     background-color: pink;
 }
+
+/* Adding image placeholder in section one */
+.plc-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 600px;
+    height: 250px;
+    background-color: gray;
+}
