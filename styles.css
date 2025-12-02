@@ -10,13 +10,6 @@ p {
 }
 
 /* Styles for section one */
-.section.one {
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 210px;
-    gap: 50px;
-}
-
 .one.logo,
 .one.body,
 .one.list,
@@ -132,11 +125,22 @@ button {
     background-color: gray;
 }
 
+
 .section.two,
-.section.three {
+.section.three,
+.section.four {
     display: flex;
     flex: 1;
     flex-direction: column;
+    min-height: 25vh;
+}
+
+.section.one {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 30px 210px;
+    gap: 50px;
     min-height: 25vh;
 }
 
@@ -180,12 +184,8 @@ button {
 
 /* Styles for section four */
 .section.four {
-    display: flex;
-    flex: 1;
     justify-content: center;
-    flex-direction: column;
     padding: 100px 200px;
-    min-height: 25vh;
 }
 
 .box {
