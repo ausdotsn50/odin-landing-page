@@ -6,4 +6,4 @@
 ## 🕹️ Navigation
 ### Placeholder
 
-## 📺 Live at: Placeholder
+## 📺 Live at: https://ausdotsn50.github.io/odin-landing-page/
