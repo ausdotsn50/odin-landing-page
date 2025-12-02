@@ -8,10 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    /*
-    
-    flex: 1;
-    */
 }
 
 .header {
@@ -50,19 +46,13 @@ a {
     font-size: 18px;
 }
 
-
-/*
-
-
+.one.body {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    
+}
 
 .left-box,
 .right-box {
-    display: flex;
-    flex-direction: column;
 }
-
-.image {
-    background-color: gray;
-}
-
-*/
