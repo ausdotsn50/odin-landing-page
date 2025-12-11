@@ -11,6 +11,7 @@ p {
 
 /* Styles for section one */
 
+
 .one.list,
 .one.image,
 .two.card-container {
@@ -21,6 +22,9 @@ p {
 .one.logo {
     display: flex;
     justify-content: flex-start;
+
+    align-items: flex-end;
+
 
     align-items: flex-end;
 
@@ -67,6 +71,10 @@ a {
     margin-bottom: 100px;
 }
 
+.one.logo {
+    margin-bottom: 100px;
+}
+
 .left-box {
     max-width: 31%;
 }
@@ -76,6 +84,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
     justify-content: center;
 }
 
