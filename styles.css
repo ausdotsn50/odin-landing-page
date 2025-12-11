@@ -10,8 +10,8 @@ p {
 }
 
 /* Styles for section one */
-.one.logo,
-.one.body,
+
+
 .one.list,
 .one.image,
 .two.card-container {
@@ -22,6 +22,12 @@ p {
 .one.logo {
     display: flex;
     justify-content: flex-start;
+
+    align-items: flex-end;
+
+
+    align-items: flex-end;
+
     font-size: 24px;
     font-weight: 900;
 }
@@ -61,6 +67,14 @@ a {
     color: #b4b7be;
 }
 
+.one.logo {
+    margin-bottom: 100px;
+}
+
+.one.logo {
+    margin-bottom: 100px;
+}
+
 .left-box {
     max-width: 31%;
 }
@@ -70,6 +84,8 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
+    justify-content: center;
 }
 
 button {
@@ -228,4 +244,11 @@ button {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    gap: 5px;
+} 
+
+#footer-icon {
+    width: 16px; 
+    height: 16px;
+    filter: invert(100%);
 }
